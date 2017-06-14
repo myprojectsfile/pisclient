@@ -25,7 +25,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-dx-data-grid ,.mat-button,.mat-input-container {
+p,td ,.mat-button,.mat-input-container {
     font-family: calibri;
 }
 .mat-button-wrapper,#sahebGhabz,.dx-datagrid-text-content {

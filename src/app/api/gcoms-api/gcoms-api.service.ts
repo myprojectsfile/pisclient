@@ -8,7 +8,8 @@ import { Observable} from 'rxjs/Observable'
 
 import {IGhabzAnbarInfo} from './gcoms-model-def'
 
-const gcomsApiBaseUrl='http://localhost:50167/api/';
+// const gcomsApiBaseUrl='http://localhost:50167/api/';
+const gcomsApiBaseUrl='http://109.230.101.80:443/api/';
 
 @Injectable()
 export class GcomsApiService {

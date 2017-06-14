@@ -1,10 +1,18 @@
 <div class="row">
-  <div class="col-sm-7">
-    <md-card color=primary>
+  <div class="col-sm-10">
+    <md-card color=primary style="margin-right: 40px;margin-top: 40px;">
+      <div class="row">
+        <div class="col-sm-5">
+          <p>جهت استعلام قبض انبار ، تمام یا قسمتی از نام صاحب قبض را در کادر زیر وارد و دکمه جستجوی قبض را بزنید</p>
+          <p>امکان تهیه خروجی اکسل از نتیجه جستجو با زدن دکمه (X) وجود دارد</p>
+        </div>
+      </div>
+      <hr>
+      <br>
       <div class="row">
         <div class="col-sm-2 offset-sm-1">
           <md-input-container>
-            <input mdInput align="end" placeholder="نام صاحب قبض" id="sahebGhabz" [(ngModel)]="nameSahebGhabz"/>
+            <input mdInput align="end" placeholder="نام صاحب قبض" id="sahebGhabz" [(ngModel)]="nameSahebGhabz" />
           </md-input-container>
         </div>
         <div class="col-sm-1">
@@ -28,4 +36,3 @@
     </md-card>
   </div>
 </div>
-
